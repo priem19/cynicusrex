@@ -70,8 +70,9 @@
     <p><code>cd &ltrepo-folder&gt<br>git init<br>git remote add origin &lturl&gt<br>git fetch<br>git reset origin/master</code>
     </p>
 
-    <h2>Remove Chromium or Firefox as default application.</h2>
-    <p>Clicking an URL in Telegram used to open Vivaldi browser by default, until I installed Firefox or Chromium even when Vivaldi still being the default browser. To fix this go to <code>/usr/share/applications/</code>, open <code>mimeinfo.cache</code> and remove <code>chromium.desktop</code> or <code>firefox.desktop</code> from the items where it's listed first; I assume placing <code>vivaldi-stable.desktop</code> first will work as well.</p>
+    <!-- Isn't permanent. -->
+    <!-- <h2>Remove Chromium or Firefox as default application.</h2>
+    <p>Clicking an URL in Telegram used to open Vivaldi browser by default, until I installed Firefox or Chromium even when Vivaldi still being the default browser. To fix this go to <code>/usr/share/applications/</code>, open <code>mimeinfo.cache</code> and remove <code>chromium.desktop</code> or <code>firefox.desktop</code> from the items where it's listed first; I assume placing <code>vivaldi-stable.desktop</code> first will work as well.</p> -->
 
     <h2>Extensions in VSCodium.</h2>
     <p>Create <a href="https://github.com/VSCodium/vscodium/blob/master/DOCS.md#extensions-marketplace">project.json</a> at ~/.config/VSCodium containing:<br>
