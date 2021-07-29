@@ -334,6 +334,11 @@ code {
   margin: auto;
 }
 
+.media-source {
+  margin-top: 0.313rem;
+  font-size: smaller;
+}
+
 .sub-title {
   font-size: 1.313rem;
   font-weight: normal;
