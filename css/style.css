@@ -408,6 +408,11 @@ code {
   text-decoration: none
 }
 
+.dagger {
+  font-family: monospace;
+  vertical-align: text-top;
+}
+
 li ul li {
   list-style-type: lower-alpha;
 }
