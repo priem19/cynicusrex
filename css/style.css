@@ -296,6 +296,7 @@ code {
 .readability {
   max-width: 42rem;
   margin: auto;
+  hyphens: none;
 }
 
 .media-source {
@@ -329,6 +330,10 @@ code {
   padding-left: 1rem;
 }
 
+.inline-quote {
+  color: grey;
+}
+
 .readability img {
   max-width: 100%;
   height: auto;
@@ -344,7 +349,7 @@ code {
   /* https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/ */
   overflow-wrap: break-word;
   word-wrap: break-word;
-  hyphens: auto;
+  hyphens: none;
 }
 
 .readability iframe {
@@ -381,6 +386,12 @@ code {
 
 .end-crown {
   font-size: 2rem;
+  text-align: center;
+  margin: 1.5rem;
+}
+
+.mid-ornament {
+  font-size: 1.5rem;
   text-align: center;
   margin: 1.5rem;
 }
