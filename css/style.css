@@ -281,6 +281,7 @@ code {
 .symbol-box {
   display: inline-block;
   vertical-align: top;
+  max-width: 30rem;
 }
 
 .monospace-symbols {
