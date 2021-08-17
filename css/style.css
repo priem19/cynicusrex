@@ -295,15 +295,18 @@ code {
 /*———————————————————————————————————————————————————————————————*/
 /* Music */
 
-.yt-song {
+.yt-song, .vi-song, .genre-section {
   display: inline-block;
+  vertical-align: top;
+}
+
+.vi-song iframe {
+  width: 18.75rem;
+  height: 11.25rem;
 }
 
 .yt-song p {
   width: 18.75rem;
-  height: 2rem;
-  vertical-align: bottom;
-  text-align: center;
 }
 
 /*———————————————————————————————————————————————————————————————*/
