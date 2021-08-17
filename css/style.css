@@ -295,14 +295,9 @@ code {
 /*———————————————————————————————————————————————————————————————*/
 /* Music */
 
-.yt-song, .vi-song, .genre-section {
+.yt-song, .genre-section {
   display: inline-block;
   vertical-align: top;
-}
-
-.vi-song iframe {
-  width: 18.75rem;
-  height: 11.25rem;
 }
 
 .yt-song p {
