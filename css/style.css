@@ -296,7 +296,11 @@ code {
 /*———————————————————————————————————————————————————————————————*/
 /* Music */
 
-.yt-song, .genre-section {
+.genre-section {
+  display: inline-block;
+}
+
+.yt-song {
   display: inline-block;
   vertical-align: top;
 }
